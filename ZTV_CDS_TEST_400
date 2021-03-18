@@ -1,0 +1,7 @@
+@EndUserText.label: 'Test custom entity'
+@ObjectModel.query.implementedBy: 'ABAP:ZTV_CL_TEST'
+define custom entity ztv_cds_test_400 
+{
+ key werks               : abap.char( 4 );
+      name1               : abap.char( 30 );  
+}
