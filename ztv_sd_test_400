@@ -1,0 +1,4 @@
+@EndUserText.label: 'sd for custom entity'
+define service Ztv_sd_test_400 {
+  expose ztv_cds_test_400;
+}
